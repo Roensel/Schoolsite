@@ -39,8 +39,8 @@ body {
 	z-index: 5;
 	text-align: right;
 	margin: 0 auto;
-	-moz-box-shadow: 0 0 30px 5px #000;
-	-webkit-box-shadow: 0 0 30px 5px #000;
+	-moz-box-shadow: 0 0 10px 5px #000;
+	-webkit-box-shadow: 0 0 10px 5px #000;
 }
 
 #navigatie ul {
