@@ -8,24 +8,20 @@
   <!-- I can haz teh layout?! -->
   <link rel="stylesheet" href="inc/css/foundation.css">
   <link rel="stylesheet" href="inc/css/typography.css">
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="inc/css/base2.css"> 
-  <!-- Load teh scriptz -->
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="http://unslider.com/unslider.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="inc/css/base2.css">
 </head>
 <body>
-	<nav>
-	<div class="row">
-		<div id="navigatie">
-			<div class="small-4 columns" id="logo">
-				<img src="inc/img/logoklein.png" alt="Logo">
-			</div>
-			<div class="small-8 columns">
-			<ul>
-				<li><a href="index.html">Logo</a></li>
-				<li><a href="index.html">Home</a></li>
+  <nav>
+  <div class="row">
+    <div id="navigatie">
+      <div class="small-4 columns" id="logo">
+        <img src="inc/img/logoklein.png" alt="Logo">
+      </div>
+      <div class="small-8 columns">
+      <ul>
+        <li><a href="index.html">Logo</a></li>
+        <li><a href="index.html">Home</a></li>
 				<li><a href="overernest.html">Over Ernest</a></li>
 				<li><a href="#">Media</a></li>
 				<li><a href="#">Agenda</a></li>
@@ -39,12 +35,16 @@
 	<div class="row">
 		<div class="row" id="slider">
 			<div class="banner">
-				<ul>
-					<li style="background-image: url('inc/img/slide1.jpg');">
-						<h1>Het zingt!</h1>
-						<p>Het is een wonder!</p>
-						<a class="btn" href="#tap">Koop Ernest een biertje</a>
+				<ul data-orbit>
+
+					<li>
+						<img src="inc/img/slide1.jpg">
+            <div class="orbit-caption">Hallo jeugd!</div>
 					</li>
+          <li>
+            <img src="inc/img/slide2.jpg">
+            <div class="orbit-caption">Bier?</div>
+          </li>
 				</ul>
 			</div>
 		</div>
@@ -97,16 +97,14 @@
      	</ul>
      	</div>
      </footer>
+  <!-- Load teh scriptz -->
+  <script src="inc/js/vendor/custom.modernizr.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="inc/js/foundation.min.js"></script>
+  <script src="inc/js/toelie.js"></script>
   <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="js/foundation.min.js"></script>
-  <script src="inc/js/toelie.js"></script>  
-  <script>
-    $(document).foundation();  
+    $(document).foundation();
   </script>
 </body>
 </html>
