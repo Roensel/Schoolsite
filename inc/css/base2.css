@@ -171,6 +171,7 @@ body {
 
 #voet {
 	margin-top: 100px;
+	max-width: 64em;
 	background-image:url('../img/bgfooter.jpg');
 }
 
