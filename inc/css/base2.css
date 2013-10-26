@@ -12,18 +12,39 @@ body {
 	margin-top: 80px;
 }
 
+.row {
+	max-width: 58.125em;
+}
+
+.column, .columns {
+	padding: 0 1.1875em 0 0;
+}
+
+/* Meest rechtse column krijgt geen padding */
+[class*="column"] + [class*="column"]:last-child {
+	padding: 0;
+}
+
 /* CONTENT */
 
-#artikel{
-	margin-top: 20px;
+.artikel {
+	margin-top: 1.25em;
 	color: #feefc0;
 	background-image:url('../img/contentbox1.jpg');
 	background-size: 100%;
+	padding: 1.1875em;
 }
 
-#artikel h1{
-	color:#a91412;
-	font-family: 'Oswald', sans-serif;
+h2 {
+	color: #9f1513;
+	font-size: 1.25em;
+	font: bold 1.125rem 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font: normal .9375rem 'Lato', sans-serif;
+	color: #feefc0;
 }
 
 /* NAVIGATIE */
@@ -36,11 +57,22 @@ body {
 	height: 60px;
 	top: 0;
 	left: 0;
-	z-index: 5;
+	z-index: 100;
 	text-align: right;
 	margin: 0 auto;
-	-moz-box-shadow: 0 0 10px 5px #000;
-	-webkit-box-shadow: 0 0 10px 5px #000;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
+	/*
+		Beste Jeroen,
+
+
+		-webkit- en -moz- prefix voor box-shadow is niet meer nodig tegenwoordig :).
+		Zie http://caniuse.com/#search=box-shadow voor meer info
+
+		Ik heb ook de schaduw wat lichter gemaakt dmv rgba(). Beter denk ik he?
+
+		Kees & co.
+		Houdoe.
+	 */
 }
 
 #navigatie ul {
@@ -50,7 +82,8 @@ body {
 #navigatie li {
 	display:inline;
 	list-style-type: none;
-	font-family: 'Oswald', sans-serif;
+	font: 1.25em 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 
 #navigatie ul li a {
@@ -58,6 +91,15 @@ body {
 	padding: 2em 1em;
 	color: #fff;
 	color:#9a7f2d;
+}
+
+#navigatie ul li:last-child a {
+	padding-right: 0;
+	margin-right: -.8em;
+}
+
+#navigatie ul li.actief a {
+	color:#a91412;
 }
 
 #navigatie ul li a:hover {
@@ -88,33 +130,70 @@ body {
 	height: 412px;
 	background: #9a7f2d;
 	margin: 0 auto;
+	position: relative;
+}
+
+.banner .kopje {
+	background: url('../img/slider/kopje.png');
+	width: 187px;
+	height: 99px;
+	position: absolute;
+	top: -35px;
+	left: -40px;
+	z-index: 20;
+	text-transform: uppercase;
+	padding: 25px 0 0 30px;
+}
+
+.banner .kopje h2 {
+	color: #fff;
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+	transform: rotate(-12deg);
+	zoom: 1;
 }
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
 	margin-top: -31px;
 	height: 58px;
+	width: 48px;
+}
+
+.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
+	background-color: transparent;
 }
 
 .orbit-container .orbit-prev {
 	background: transparent url('../img/slider/prev.png');
-	left: -60px;
+	left: -58px;
 }
 
 .orbit-container .orbit-next {
 	background: transparent url('../img/slider/next.png');
-	right: -60px;
+	right: -58px;
 }
 
 .orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
 	border: none;
 }
 
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+	background: rgba(154, 127, 45, .7);
+	width: 17.125em;
+	right: 1.19em;
+	top: 1.19em;
+	bottom: 1.19em;
+}
+
 /* FOOTER */
 
 #voet {
+	background: url('../img/bgfooter.jpg');
 	margin-top: 100px;
 	max-width: 64em;
-	background-image:url('../img/bgfooter.jpg');
+	overflow: hidden;
 }
 
 #voet ul {
