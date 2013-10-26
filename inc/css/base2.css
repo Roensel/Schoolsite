@@ -75,6 +75,11 @@ body {
 .orbit-container {
 	background: transparent;
 	max-width: 940px;
+	overflow: visible!important;
+}
+
+.orbit-slides-container {
+	overflow: hidden!important;
 }
 
 .banner {
@@ -87,7 +92,7 @@ body {
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
 	margin-top: -31px;
-	height: 63px;
+	height: 58px;
 }
 
 .orbit-container .orbit-prev {
