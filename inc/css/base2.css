@@ -8,9 +8,6 @@ body {
 	background-position:top;
 }
 
-#slider {
-	margin-top: 80px;
-}
 
 .row {
 	max-width: 58.125em;
@@ -54,7 +51,7 @@ p {
 	width: 100%;
 	background: #523705;
 	background-size: 100%;
-	height: 60px;
+	height: 3.75em;
 	top: 0;
 	left: 0;
 	z-index: 100;
@@ -76,7 +73,7 @@ p {
 }
 
 #navigatie ul {
-	margin-top: 15px;
+	margin-top: 0.94em;
 }
 
 #navigatie li {
@@ -109,7 +106,19 @@ p {
 #logo {
 	position: absolute;
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 0.63em;
+}
+
+
+.content {
+	margin-top: 3.75em;
+}
+
+
+/* ASOCIAL */
+.socialmedia {
+	margin: 1.69em 0 1.69em 0;
+	text-align: right;
 }
 
 /* BANNER/SLIDER */
@@ -188,21 +197,27 @@ p {
 }
 
 /* FOOTER */
+footer {
+	background: #523705;
+	margin-top: 100px;
+}
+
+footer > .row {
+	max-width: 60em!important;
+}
 
 #voet {
-	background: url('../img/bgfooter.jpg');
-	margin-top: 100px;
 	max-width: 64em;
 	overflow: hidden;
+	padding: 1.1875em;
 }
 
 #voet ul {
 	margin-left: 20px;
 }
 
-#voet h1 {
-	color:#a91412;
-	font-family: 'Oswald', sans-serif;
+#voet h2 {
+	color: #9a7f2d;
 }
 
 #voet li a {
@@ -215,6 +230,18 @@ p {
 	color:#a91412;
 }
 
+#voet li {
+	color: #9a7f2d;
+}
+
 #voet p {
 	color:#fff;
+}
+
+.footer-socialmedia img {
+	margin: 0.69em 1.69em 0 0;
+}
+
+.footer-socialmedia a:last-child img {
+	margin-right: 0;
 }
