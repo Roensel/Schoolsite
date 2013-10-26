@@ -1,0 +1,198 @@
+/* ALGEMEEN */
+
+body {
+	background-image:url('../img/bgimg.jpg');
+	background-size: 100%;
+}
+
+#slider {
+	margin-top: 80px;
+}
+
+/* CONTENT */
+
+#artikel{
+	margin-top: 20px;
+	color: #feefc0;
+	background-image:url('../img/contentbox1.jpg');
+	background-size: 100%;
+}
+
+#artikel h1{
+	color:#a91412;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* NAVIGATIE */
+
+#navigatie {
+	position: fixed;
+	width: 100%;
+	background: #523705;
+	background-size: 100%;
+	height: 40px;	
+	top: 0;
+	left: 0;
+	z-index: 5;
+	text-align: right;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 30px 5px #000;
+	-webkit-box-shadow: 0 0 30px 5px #000;
+}
+
+#navigatie ul {
+	margin-top: 5px;
+}
+
+#navigatie li {
+	display:inline;
+	list-style-type: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+#navigatie ul li a {
+	text-decoration: none;
+	padding: 2em 1em;
+	color: #fff;
+	color:#9a7f2d;
+}
+
+#navigatie ul li a:hover {
+	color:#a91412;
+}
+
+#logo {
+	position: absolute;
+	text-align: left;
+}
+
+/* BANNER/SLIDER */
+
+.banner {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+	
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	
+	color: rgba(255,255,255,.6);
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+	
+	background: #5b4d3d;
+	box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+.banner ul {
+	list-style: none;
+	width: 300%;
+}
+
+.banner ul li {
+	display: block;
+	float: left;
+	width: 33%;
+	padding: 160px 0 110px;
+	min-height: 350px;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		-ms-background-size: 100% 100%;
+		box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+}
+	
+.banner h1, .banner h2 {
+	font-size: 40px;
+	line-height: 52px;
+	color: #fff;
+}
+
+.banner .btn {
+	display: inline-block;
+	margin: 25px 0 0;
+	padding: 9px 22px 7px;
+	clear: both;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid rgba(255,255,255,.4);
+	border-radius: 5px;
+}
+
+.banner .btn:hover {
+	background: rgba(255,255,255,.05);
+}
+
+.banner .btn:active {
+	-webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-moz-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-o-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+}
+
+.banner .btn, .banner .dot {
+	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+.banner .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+}
+
+.banner .dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: .4;
+		-webkit-transition: background .5s, opacity .5s;
+		-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+
+.banner .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+
+/* FOOTER */
+
+#voet {
+	margin-top: 100px;
+	background-image:url('../img/bgfooter.jpg');
+}
+
+#voet ul {
+	margin-left: 20px;
+}
+
+#voet h1 {
+	color:#a91412;
+	font-family: 'Oswald', sans-serif;
+}
+
+#voet li a {
+	text-decoration: none;
+	color:#fff;
+}
+
+#voet li a:hover {
+	text-decoration: none;
+	color:#a91412;
+}
+
+#voet p {
+	color:#fff;
+}

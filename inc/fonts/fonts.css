@@ -1,0 +1,31 @@
+/*
+File name: 		fonts.css
+Author:			LAYLO
+Version:		1.1
+Description:	Font Stylesheet
+License:		Inhouse
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/dosis.eot');
+	src: url('../font/dosis.eot?#iefix') format('embedded-opentype'),
+		url('../font/dosis.woff') format('woff'),
+		url('../font/dosis.ttf') format('truetype'),
+		url('../font/dosis.svg#webfont') format('svg');
+}
+@font-face {
+	font-family: 'Istok Web';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/istok.eot');
+	src: url('../font/istok.eot?#iefix') format('embedded-opentype'),
+		url('../font/istok.woff') format('woff'),
+		url('../font/istok.ttf') format('truetype'),
+		url('../font/istok.svg#webfont') format('svg');
+}

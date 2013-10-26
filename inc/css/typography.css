@@ -1,0 +1,41 @@
+/*
+File name: 		fonts.css
+Author:			LAYLO
+Version:		1.1
+Description:	Font Stylesheet
+License:		Inhouse
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/dosis.eot');
+	src: url('../fonts/dosis.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/dosis.woff') format('woff'),
+		url('../fonts/dosis.ttf') format('truetype'),
+		url('../fonts/dosis.svg#webfont') format('svg');
+}
+@font-face {
+	font-family: 'Istok Web';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/istok.eot');
+	src: url('../fonts/istok.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/istok.woff') format('woff'),
+		url('../fonts/istok.ttf') format('truetype'),
+		url('../fonts/istok.svg#webfont') format('svg');
+}
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('oswald-light-webfont.eot');
+    src: url('oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('oswald-light-webfont.woff') format('woff'),
+         url('oswald-light-webfont.ttf') format('truetype'),
+         url('oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
