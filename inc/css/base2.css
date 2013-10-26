@@ -5,7 +5,7 @@ body {
 	background-size: 100%;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	background-position:top; 
+	background-position:top;
 }
 
 #slider {
@@ -74,6 +74,12 @@ body {
 .orbit-container {
 	background: transparent;
 	max-width: 940px;
+}
+
+.banner {
+	width: 960px;
+	padding: 10px 0 10px 10px;
+	background: #9a7f2d;
 }
 
 /* FOOTER */
