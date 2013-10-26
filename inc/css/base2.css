@@ -85,6 +85,25 @@ body {
 	margin: 0 auto;
 }
 
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+	margin-top: -31px;
+	height: 63px;
+}
+
+.orbit-container .orbit-prev {
+	background: transparent url('../img/slider/prev.png');
+	left: -60px;
+}
+
+.orbit-container .orbit-next {
+	background: transparent url('../img/slider/next.png');
+	right: -60px;
+}
+
+.orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
+	border: none;
+}
+
 /* FOOTER */
 
 #voet {
