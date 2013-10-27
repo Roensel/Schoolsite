@@ -1,4 +1,16 @@
-/* ALGEMEEN */
+/* -------------------------------------------
+   Opmaak voor de website van Ernest van Aaken
+                      ---
+                      
+   Inhoud:
+   1. Algemene opmaak
+   2. Navigatie opmaak
+   3. Opmaak van de content
+   4. Opmaak van de slider
+   5. En niet te vergeten, de footer
+   --------------------------------------------*/
+   
+/* 1. Algemene opmaak */
 
 body {
 	background-image:url('../img/bgimg.jpg');
@@ -17,34 +29,11 @@ body {
 	padding: 0 1.1875em 0 0;
 }
 
-/* Meest rechtse column krijgt geen padding */
 [class*="column"] + [class*="column"]:last-child {
 	padding: 0;
 }
 
-/* CONTENT */
-
-.artikel {
-	margin-top: 1.25em;
-	color: #feefc0;
-	background-image:url('../img/contentbox1.jpg');
-	background-size: 100%;
-	padding: 1.1875em;
-}
-
-h2 {
-	color: #9f1513;
-	font-size: 1.25em;
-	font: bold 1.125rem 'Oswald', sans-serif;
-	text-transform: uppercase;
-}
-
-p {
-	font: normal .9375rem 'Lato', sans-serif;
-	color: #feefc0;
-}
-
-/* NAVIGATIE */
+/* 2. Navigatie opmaak */
 
 #navigatie {
 	position: fixed;
@@ -58,18 +47,6 @@ p {
 	text-align: right;
 	margin: 0 auto;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
-	/*
-		Beste Jeroen,
-
-
-		-webkit- en -moz- prefix voor box-shadow is niet meer nodig tegenwoordig :).
-		Zie http://caniuse.com/#search=box-shadow voor meer info
-
-		Ik heb ook de schaduw wat lichter gemaakt dmv rgba(). Beter denk ik he?
-
-		Kees & co.
-		Houdoe.
-	 */
 }
 
 #navigatie ul {
@@ -114,14 +91,34 @@ p {
 	margin-top: 3.75em;
 }
 
+/* 3. Opmaak van de content */
 
-/* ASOCIAL */
+.artikel {
+	margin-top: 1.25em;
+	color: #feefc0;
+	background-image:url('../img/contentbox1.jpg');
+	background-size: 100%;
+	padding: 1.1875em;
+}
+
+h2 {
+	color: #9f1513;
+	font-size: 1.25em;
+	font: bold 1.125rem 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font: normal .9375rem 'Lato', sans-serif;
+	color: #feefc0;
+}
+
 .socialmedia {
 	margin: 1.69em 0 1.69em 0;
 	text-align: right;
 }
 
-/* BANNER/SLIDER */
+/* 4. Opmaak van de slider */
 
 .orbit-container {
 	background: transparent;
@@ -196,7 +193,8 @@ p {
 	bottom: 1.19em;
 }
 
-/* FOOTER */
+/* 5. En niet te vergeten, de footer */
+
 footer {
 	background: #523705;
 	margin-top: 100px;
