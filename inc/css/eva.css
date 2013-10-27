@@ -14,7 +14,7 @@
 
 body {
 	background-image:url('../img/layout/bgimg.jpg');
-	background-size: 100%;
+	background-size: cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:top;
@@ -31,6 +31,10 @@ body {
 
 [class*="column"] + [class*="column"]:last-child {
 	padding: 0;
+}
+
+.row-no-margin-left {
+	margin-left: 0!important; /* Quick & dirty */
 }
 
 /* 2. Navigatie opmaak */
@@ -162,6 +166,14 @@ h3 {
 p {
 	font: normal .9375rem 'Lato', sans-serif;
 	color: #feefc0;
+}
+
+a {
+	color: #9f1513;
+}
+
+a:hover, a:focus {
+	color: #fff;
 }
 
 .socialmedia {

@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width" name="viewport">
-    <title>Ernest van Aaken » Home</title>
+    <title>Ernest van Aaken » Media</title>
     <!-- I can haz SEO & sozial?! -->
     <meta property="og:site_name" content="Ernest van Aaken">
     <meta property="og:type" content="website">
@@ -40,9 +40,9 @@
 
                 <div class="small-12 large-8 columns">
                     <ul>
-                        <li class="actief"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="overernest.html">Over Ernest</a></li>
-                        <li><a href="media.html">Media</a></li>
+                        <li class="actief"><a href="media.html">Media</a></li>
                         <li><a href="agenda.html">Agenda</a></li>
                         <li><a href="nieuws.html">Nieuws</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -54,73 +54,95 @@
 
     <div class="row content">
         <div class="row">
-            <div class="socialmedia metslider">
+            <div class="socialmedia">
                 <a href="https://www.facebook.com/ernest.vanaaken"><img src="inc/img/social-icons/header_fb.png"></a>
                 <a href="https://twitter.com/evamuziek"><img src="inc/img/social-icons/header_twit.png"></a>
                 <a href="http://www.youtube.com/user/ernestvanaaken"><img src="inc/img/social-icons/header_yt.png"></a>
-            </div>
-            <div class="banner">
-                <div class="kopje">
-                    <h2>Laatste nieuws</h2>
-                </div>
-
-                <ul data-orbit="">
-                    <li>
-                        <img src="inc/img/slides/slide1.jpg">
-
-                        <div class="orbit-caption">
-                            <h2>Concert bij kraaij en balder groot succes</h2>
-
-                            <p>Lorem ipsum dolor sit amet, conse ctetur
-                            adipiscing elit. Quisque quis purus dapibus, ornare
-                            enim a, laor eet ante. Cum sociis n atoque pena
-                            tibus et magnis dis parturient montes, nascetur
-                            ridiculus mus. Donec eleifend ipsum in mi tristi
-                            que sceler massa ridiculus mus......</p>
-
-                            <a href="#" class="leesmeer rechts">Lees verder</a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <img src="inc/img/slides/slide2.jpg">
-
-                        <div class="orbit-caption">
-                            <h2>Surprise-act op Hovenring</h2>
-
-                            <p>Een surprise-act gepland door mij en mijn buddies op de Hovenring is verrassend in het water gelopen toen bleek dat de Hovenring alweer gesloten was.</p>
-
-                            <a href="#" class="leesmeer rechts">Lees verder</a>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
 
         <div class="row">
             <div class="small-12 large-8 columns">
                 <div class="artikel">
-                    <h2>Maak kennis met Ernest</h2>
+                    <h2>Muziek</h2>
 
-                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque quis purus dapibus, ornare enim a, laoreet ante.
-                    Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec eleifend ipsum in mi
-                    tristique scelerisque. Etiam velit massa, mattis eu nibh a,
-                    egestas euismod turpis. Praesent lobortis, leo sit amet</p>
+                    <p>Hieronder staan een aantal nummers van mij die je gratis kunt beluisteren. Wil je meer nummers horen? Kijk dan op <a href="#">SoundCloud</a>.</p>
+
+                    <div class="jp-jplayer" id="jplayer_pagina"></div>
+
+                    <div class="jp-audio" id="jp_container_groot">
+                        <div class="jp-type-playlist">
+                            <div class="jp-gui jp-interface">
+                                <ul class="jp-controls">
+                                    <li><a class="jp-play" href="javascript:;" tabindex="1">play</a></li>
+                                    <li><a class="jp-pause" href="javascript:;" tabindex="1">pause</a></li>
+                                    <li><a class="jp-stop" href="javascript:;" tabindex="1">stop</a></li>
+                                </ul>
+
+                                <div class="jp-progress">
+                                    <div class="jp-current-time"></div>
+                                    <div class="jp-duration"></div>
+                                    <div class="jp-seek-bar">
+                                        <div class="jp-play-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="jp-playlist">
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="artikel">
-                    <h2>Fotogallerij</h2>
+                    <h2>Fotogalerij</h2>
 
-                    <div>
-                        <a href="inc/img/gallery/large1.jpg" class="th"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large2.jpg" class="th"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large3.jpg" class="th"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
+                    <div class="row row-no-margin-left">
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large1.jpg" class="th"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
+                            <h3>Concert Kraaij en Balder</h3>
+                            <p>21 September</p>
+                        </div>
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large2.jpg" class="th"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
+                            <h3>Oefensessie met organisatie</h3>
+                            <p>24 Augustus</p>
+                        </div>
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large3.jpg" class="th"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
+                            <h3>Repeteersessie van nieuwe singles</h3>
+                            <p>16 Augustus</p>
+                        </div>
                     </div>
                     <div>
-                        <a href="#" class="leesmeer rechts">Meer foto&rsquo;s</a>
+                        <a href="#" class="leesmeer rechts">Meer albums</a>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <h2>Video&rsquo;s</h2>
 
+                    <div class="row row-no-margin-left">
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large1.jpg" class="th"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
+                            <h3>Concert Kraaij en Balder</h3>
+                            <p>21 September</p>
+                        </div>
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large2.jpg" class="th"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
+                            <h3>Oefensessie met organisatie</h3>
+                            <p>24 Augustus</p>
+                        </div>
+                        <div class="small-4 columns">
+                            <a href="inc/img/gallery/large3.jpg" class="th"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
+                            <h3>Repeteersessie van nieuwe singles</h3>
+                            <p>16 Augustus</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="leesmeer rechts">Meer albums</a>
                     </div>
                 </div>
             </div>
@@ -158,38 +180,6 @@
                     </div>
 
                     <a href="#" class="leesmeer rechts">Naar de agenda</a>
-                </div>
-
-                <div class="artikel">
-                    <h2>Muziek</h2>
-
-                    <div class="jp-jplayer" id="jplayer_sidebar"></div>
-
-                    <div class="jp-audio" id="jp_container_1">
-                        <div class="jp-type-playlist">
-                            <div class="jp-gui jp-interface">
-                                <ul class="jp-controls">
-                                    <li><a class="jp-play" href="javascript:;" tabindex="1">play</a></li>
-                                    <li><a class="jp-pause" href="javascript:;" tabindex="1">pause</a></li>
-                                    <li><a class="jp-stop" href="javascript:;" tabindex="1">stop</a></li>
-                                </ul>
-
-                                <div class="jp-progress">
-                                    <div class="jp-current-time"></div>
-                                    <div class="jp-duration"></div>
-                                    <div class="jp-seek-bar">
-                                        <div class="jp-play-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="jp-playlist">
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
