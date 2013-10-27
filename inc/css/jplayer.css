@@ -162,7 +162,7 @@ a.jp-play:hover {
 }
 
 a.jp-pause {
-	background: url(../img/player/play.png) 0 0 no-repeat;
+	background: url(../img/player/pause.png) 0 0 no-repeat;
 	display: none;
 }
 

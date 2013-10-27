@@ -4,6 +4,15 @@ $(function() {
 		bullets: false
 	});
 
+    $('.th').magnificPopup({
+      type: 'image'
+        // other options
+    });
+
+    $('.th-frame').magnificPopup({
+        type: 'iframe'
+    });
+
     new jPlayerPlaylist({
         jPlayer: "#jplayer_sidebar",
         cssSelectorAncestor: "#jp_container_1"
