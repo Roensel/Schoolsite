@@ -13,7 +13,7 @@
 /* 1. Algemene opmaak */
 
 body {
-	background-image:url('../img/bgimg.jpg');
+	background-image:url('../img/layout/bgimg.jpg');
 	background-size: 100%;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -96,7 +96,7 @@ body {
 .artikel {
 	margin-top: 1.25em;
 	color: #feefc0;
-	background-image:url('../img/contentbox2.jpg');
+	background-image:url('../img/layout/contentbox2.jpg');
 	background-size: 100%;
 	padding: 1.1875em;
 	overflow: hidden;
@@ -196,7 +196,7 @@ p {
 }
 
 .leesmeer {
-	background: url('../img/leesmeer.png') no-repeat;
+	background: url('../img/etc/leesmeer.png') no-repeat;
 	width: 128px;
 	height: 40px;
 	color: rgba(255, 255, 255, .7);
@@ -223,7 +223,7 @@ p {
 }
 
 .agenda-datum {
-	background: url('../img/agenda-datum.png');
+	background: url('../img/etc/agenda-datum.png');
 	width: 61px;
 	height: 56px;
 	float: left;
