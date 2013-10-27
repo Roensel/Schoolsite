@@ -54,7 +54,7 @@ body {
 }
 
 #navigatie li {
-	display:inline;
+	display: inline;
 	list-style-type: none;
 	font: 1.25em 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -62,7 +62,7 @@ body {
 
 #navigatie ul li a {
 	text-decoration: none;
-	padding: 2em 1em;
+	padding: 0 1em;
 	color: #fff;
 	color:#9a7f2d;
 }
@@ -86,6 +86,52 @@ body {
 	margin-top: 0.63em;
 }
 
+#logo img {
+	width: 200px;
+	height: 44px;
+	max-width: none;
+}
+
+@media only screen and (max-width: 790px) {
+	#navigatie {
+		position: static;
+		height: auto;
+		text-align: left;
+	}
+
+	#navigatie ul {
+		padding-top: 50px;
+	}
+
+	#navigatie li {
+		display: block;
+	}
+
+	#navigatie li a {
+		padding: 0 .5em;
+		display: block;
+	}
+
+	#navigatie ul li:last-child a {
+		margin-right: .5em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	#navigatie li {
+		font-size: 1em;
+	}
+
+	#navigatie li a {
+		padding: 2em .5em;
+	}
+
+	#navigatie ul li:last-child a {
+		margin-right: .5em;
+	}
+
+}
+
 
 .content {
 	margin-top: 3.75em;
@@ -102,11 +148,15 @@ body {
 	overflow: hidden;
 }
 
-h2 {
+h2, h3 {
 	color: #9f1513;
 	font-size: 1.25em;
 	font: bold 1.125rem 'Oswald', sans-serif;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1em;
 }
 
 p {
@@ -115,14 +165,19 @@ p {
 }
 
 .socialmedia {
-	margin: 1.69em 0 1.69em 0;
+	margin: 1.69em 0 0.44em 0;
 	text-align: right;
+}
+
+.socialmedia.metslider {
+	margin-bottom: 1.69em;
 }
 
 /* 4. Opmaak van de slider */
 
 .orbit-container {
 	background: transparent;
+	width: 100%;
 	max-width: 940px;
 	overflow: visible!important;
 }
@@ -132,10 +187,9 @@ p {
 }
 
 .banner {
-	width: 960px;
-	padding: 10px 0 0 10px;
-	height: 412px;
-	background: #9a7f2d;
+	max-width: 960px;
+	height: auto;
+	border: 10px solid #9a7f2d;
 	margin: 0 auto;
 	position: relative;
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -186,13 +240,30 @@ p {
 	border: none;
 }
 
-
 .orbit-container .orbit-slides-container > * .orbit-caption {
 	background: rgba(154, 127, 45, .7);
 	width: 17.125em;
 	right: 1.19em;
 	top: 1.19em;
 	bottom: 1.19em;
+}
+
+@media only screen and (max-width: 1080px) {
+	.orbit-container .orbit-prev, .orbit-container .orbit-next {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	.orbit-caption p {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.orbit-caption {
+		display: none;
+	}
 }
 
 .leesmeer {
@@ -232,6 +303,10 @@ p {
 	font: normal .8125em 'Oswald', sans-serif;
 	color: rgba(255, 255, 255, .7);
 	line-height: 1;
+}
+
+.agenda-datum:hover {
+	color: #fff;
 }
 
 .agenda-datum span {
