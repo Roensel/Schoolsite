@@ -22,6 +22,12 @@
     <link href="inc/css/eva.css" rel="stylesheet">
     <link href="inc/css/lightbox.css" rel="stylesheet">
     <link href="inc/css/jplayer.blue.monday.css" rel="stylesheet">
+    <script>
+    $('.th').magnificPopup({ 
+      type: 'image'
+    	// other options
+    });
+    </script>
 </head>
 
 <body>
@@ -108,9 +114,9 @@
                     <h2>Fotogallerij</h2>
 
                     <div>
-                        <a href="inc/img/gallery/large1.jpg" class="th" data-lightbox="image-1"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large2.jpg" class="th" data-lightbox="image-2"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large3.jpg" class="th" data-lightbox="image-3"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
+                        <a href="inc/img/gallery/large1.jpg" class="th"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
+                        <a href="inc/img/gallery/large2.jpg" class="th"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
+                        <a href="inc/img/gallery/large3.jpg" class="th"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
                     </div>
                     <div>
                         <a href="#" class="leesmeer rechts">Meer foto&rsquo;s</a>
@@ -238,6 +244,10 @@
     <script src="inc/js/jplayer/jquery.jplayer.min.js"></script>
     <script src="inc/js/jplayer/add-on/jplayer.playlist.min.js"></script>
     <script src="inc/js/toelie.js"></script>
-    <script src="inc/js/lightbox-2.6.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.th').magnificPopup({type:'image'});
+    });
+    </script>
 </body>
 </html>
