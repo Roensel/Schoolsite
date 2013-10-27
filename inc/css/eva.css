@@ -445,6 +445,12 @@ textarea {
 	margin: 0 0 0 1em;
 }
 
+.nieuws-th {
+	width: 61px;
+	height: 56px;
+	float: left;
+}
+
 /* 6. Foto's & media */
 .th {
 	border: solid 5px #473004;
