@@ -13,7 +13,7 @@
 /* 1. Algemene opmaak */
 
 body {
-	background: url('../img/layout/bgimg.jpg') no-repeat fixed;
+	background: #492F00 url('../img/layout/bgimg.jpg') no-repeat fixed;
 	background-size: cover;
 }
 
@@ -85,7 +85,7 @@ hr {
 
 #navigatie ul li:last-child a {
 	padding-right: 0;
-	margin-right: -.8em;
+	margin-right: 0;
 }
 
 #navigatie ul li.actief a {
