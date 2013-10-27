@@ -410,6 +410,21 @@ div.jp-playlist li {
 	padding: 5px 0 0 0;
 }
 
+div.jp-playlist li:before {
+    content: "▶ ";
+    visibility: hidden;
+    color: #a91a1d;
+}
+
+div.jp-playlist li.jp-playlist-current:before {
+    visibility: visible;
+}
+
+
+div.jp-playlist li small {
+	font-size: 0.75rem;
+}
+
 div.jp-playlist li div {
 	display: inline;
 }

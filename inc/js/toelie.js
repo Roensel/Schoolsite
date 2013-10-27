@@ -17,23 +17,23 @@ $(function() {
         jPlayer: "#jplayer_sidebar",
         cssSelectorAncestor: "#jp_container_1"
     }, [{
-        title: "Cro Magnon Man",
+        title: "<small>01.</small> Cro Magnon Man",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
     }, {
-        title: "Your Face",
+        title: "<small>02.</small> Your Face",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
     }, {
-        title: "Cyber Sonnet",
+        title: "<small>03.</small> Cyber Sonnet",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
     }, {
-        title: "Tempered Song",
+        title: "<small>04.</small> Tempered Song",
         mp3: "http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
         oga: "http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
     }, {
-        title: "Hidden",
+        title: "<small>05.</small> Hidden",
         mp3: "http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
         oga: "http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
     }], {
@@ -46,23 +46,23 @@ $(function() {
         jPlayer: "#jplayer_pagina",
         cssSelectorAncestor: "#jp_container_groot"
     }, [{
-        title: "Cro Magnon Man",
+        title: "<small>01.</small> Cro Magnon Man",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
     }, {
-        title: "Your Face",
+        title: "<small>02.</small> Your Face",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
     }, {
-        title: "Cyber Sonnet",
+        title: "<small>03.</small> Cyber Sonnet",
         mp3: "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
         oga: "http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
     }, {
-        title: "Tempered Song",
+        title: "<small>04.</small> Tempered Song",
         mp3: "http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
         oga: "http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
     }, {
-        title: "Hidden",
+        title: "<small>05.</small> Hidden",
         mp3: "http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
         oga: "http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
     }], {

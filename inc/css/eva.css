@@ -370,19 +370,27 @@ form {
 }
 
 .agenda-titel {
-	margin: .1em 0 0 .56em;
+	margin: .1em 0 0 4.37em;
 	overflow: hidden;
-	float: left;
 }
 
 .agenda-titel em {
 	font-size: 0.75rem;
 }
 
+.agenda-center {
+	text-align: center;
+	padding-top: .2em;
+}
+
+.agenda-pagemargin {
+	margin: 0 0 0 1em;
+}
+
 /* 6. Foto's & media */
 .th {
 	border: solid 5px #473004;
-	margin-right: .6em;
+	margin: 0 .4em 1em 0;
 }
 
 .th:last-child {
