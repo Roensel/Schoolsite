@@ -13,11 +13,8 @@
 /* 1. Algemene opmaak */
 
 body {
-	background-image:url('../img/layout/bgimg.jpg');
+	background: url('../img/layout/bgimg.jpg') no-repeat fixed;
 	background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:top;
 }
 
 
