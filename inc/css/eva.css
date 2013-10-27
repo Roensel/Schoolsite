@@ -22,8 +22,18 @@ body {
 	max-width: 58.125em;
 }
 
+.row .row {
+	margin-right: 0;
+}
+
 .column, .columns {
 	padding: 0 1.1875em 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.column, .columns {
+		padding: 0;
+	}
 }
 
 [class*="column"] + [class*="column"]:last-child {
@@ -226,6 +236,10 @@ form {
 	overflow: hidden!important;
 }
 
+.orbit-container .orbit-timer {
+	display: none;
+}
+
 .banner {
 	max-width: 960px;
 	height: auto;
@@ -285,7 +299,7 @@ form {
 	width: 17.125em;
 	right: 1.19em;
 	top: 1.19em;
-	bottom: 1.19em;
+	bottom: auto;
 }
 
 @media only screen and (max-width: 1080px) {
