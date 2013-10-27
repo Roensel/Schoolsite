@@ -33,6 +33,11 @@ body {
 	padding: 0;
 }
 
+hr {
+	background:url('../img/layout/divider.png') repeat-x top left;
+	border: 0;
+}
+
 /* 2. Navigatie opmaak */
 
 #navigatie {
@@ -172,6 +177,32 @@ p {
 .socialmedia.metslider {
 	margin-bottom: 1.69em;
 }
+
+form {
+	line-height: 30px;
+}
+
+.input {
+	background: rgba(255, 255, 255, .2);
+	width: 70%;
+	height: 24px;
+	border: 2px solid #9f1513;
+	font-size: 14px;
+	float: right;
+	color: #000;
+}
+	::-webkit-input-placeholder {
+	    color:    #3c3c3c;
+	}
+	:-moz-placeholder {
+	    color:    #3c3c3c;
+	}
+	::-moz-placeholder {
+	    color:    #3c3c3c;
+	}
+	:-ms-input-placeholder {
+	    color:    #3c3c3c;
+	}
 
 /* 4. Opmaak van de slider */
 
