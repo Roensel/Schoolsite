@@ -4,6 +4,21 @@ $(function() {
 		bullets: false
 	});
 
+	$("#jplayer_sidebar").jPlayer({
+		ready: function() {
+			$(this).jPlayer("setMedia", {
+				m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+				oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+			});
+			$(this).jPlayer("setMedia", {
+				m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+				oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+			});
+		},
+		swfPath: "/js",
+		supplied: "m4a, oga"
+	});
+
 
 	//  Find any element starting with a # in the URL
 	//  And listen to any click events it fires
