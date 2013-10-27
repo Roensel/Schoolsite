@@ -99,6 +99,7 @@ body {
 	background-image:url('../img/contentbox1.jpg');
 	background-size: 100%;
 	padding: 1.1875em;
+	overflow: hidden;
 }
 
 h2 {
@@ -137,6 +138,7 @@ p {
 	background: #9a7f2d;
 	margin: 0 auto;
 	position: relative;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .banner .kopje {
@@ -193,6 +195,27 @@ p {
 	bottom: 1.19em;
 }
 
+.leesmeer {
+	background: url('../img/leesmeer.png') no-repeat;
+	width: 128px;
+	height: 40px;
+	color: rgba(255, 255, 255, .7);
+	font: 0.88rem 'Oswald', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 0.81rem;
+}
+
+.leesmeer:hover {
+	color: #fff;
+}
+
+.leesmeer.rechts {
+	float: right;
+}
+
 /* 5. De agenda */
 .agenda-item {
 	overflow: hidden;
@@ -206,13 +229,14 @@ p {
 	float: left;
 	text-align: center;
 	padding-top: 6px;
-	font: bold .8125em 'Oswald', sans-serif;
+	font: normal .8125em 'Oswald', sans-serif;
 	color: rgba(255, 255, 255, .7);
 	line-height: 1;
 }
 
 .agenda-datum span {
 	font-size: 1.3125rem;
+	font-weight: bold;
 	line-height: 1.2;
 }
 
@@ -226,7 +250,21 @@ p {
 	font-size: 0.75rem;
 }
 
-/* 6. En niet te vergeten, de footer */
+/* 6. Foto's */
+.th {
+	border: solid 5px #473004;
+	margin-right: .6em;
+}
+
+.th:last-child {
+	margin-right: 0;
+}
+
+.th:hover, .th:focus {
+	box-shadow: 0 0 6px 1px rgba(159, 21, 19, 0.5);
+}
+
+/* 7. En niet te vergeten, de footer */
 
 footer {
 	background: #523705;
