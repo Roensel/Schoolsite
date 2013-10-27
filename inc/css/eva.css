@@ -197,17 +197,21 @@ a:hover, a:focus {
 	margin-bottom: 1.69em;
 }
 
-form {
-	line-height: 30px;
+label {
+	float: left;
+	height: 24px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #9f1513;
+	font-weight: bold;
 }
-
-.input {
+.input[type=text] {
+	float: right;
 	background: rgba(255, 255, 255, .2);
 	width: 70%;
 	height: 24px;
 	border: 2px solid #9f1513;
 	font-size: 14px;
-	float: right;
 	color: #000;
 }
 	::-webkit-input-placeholder {
@@ -222,6 +226,60 @@ form {
 	:-ms-input-placeholder {
 	    color:    #3c3c3c;
 	}
+
+textarea {
+	float: right;
+	background: rgba(255, 255, 255, .2);
+	width: 70%;
+	height: 24px;
+	border: 2px solid #9f1513;
+	font-size: 14px;
+	color: #000;
+}
+
+.knopje {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9f1513;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9f1513;
+	box-shadow:inset 0px 1px 0px 0px #9f1513;
+	background-color:#9f1513;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	text-indent:0;
+	border:1px solid #9f1513;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+	margin-top: 20px;
+	float: left;
+}
+
+.knopje:hover {
+	background-color:#cccccc;
+}
+
+.knopje:active {
+	position:relative;
+	top:1px;
+}
 
 /* 4. Opmaak van de slider */
 
