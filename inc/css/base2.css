@@ -1,7 +1,7 @@
 /* -------------------------------------------
    Opmaak voor de website van Ernest van Aaken
                       ---
-                      
+
    Inhoud:
    1. Algemene opmaak
    2. Navigatie opmaak
@@ -9,7 +9,7 @@
    4. Opmaak van de slider
    5. En niet te vergeten, de footer
    --------------------------------------------*/
-   
+
 /* 1. Algemene opmaak */
 
 body {
@@ -193,7 +193,40 @@ p {
 	bottom: 1.19em;
 }
 
-/* 5. En niet te vergeten, de footer */
+/* 5. De agenda */
+.agenda-item {
+	overflow: hidden;
+	margin-top: .8em;
+}
+
+.agenda-datum {
+	background: url('../img/agenda-datum.png');
+	width: 61px;
+	height: 56px;
+	float: left;
+	text-align: center;
+	padding-top: 6px;
+	font: bold .8125em 'Oswald', sans-serif;
+	color: rgba(255, 255, 255, .7);
+	line-height: 1;
+}
+
+.agenda-datum span {
+	font-size: 1.3125rem;
+	line-height: 1.2;
+}
+
+.agenda-titel {
+	margin: .1em 0 0 .56em;
+	overflow: hidden;
+	float: left;
+}
+
+.agenda-titel em {
+	font-size: 0.75rem;
+}
+
+/* 6. En niet te vergeten, de footer */
 
 footer {
 	background: #523705;
@@ -208,6 +241,7 @@ footer > .row {
 	max-width: 64em;
 	overflow: hidden;
 	padding: 1.1875em;
+	font: normal .9375rem 'Lato', sans-serif;
 }
 
 #voet ul {
