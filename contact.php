@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width" name="viewport">
-    <title>Ernest van Aaken » Contact</title>
+    <title>Ernest van Aaken &raquo; Contact</title>
     <!-- I can haz SEO & sozial?! -->
     <meta property="og:site_name" content="Ernest van Aaken">
     <meta property="og:type" content="website">
@@ -18,21 +18,20 @@
     <!-- I can haz teh layout?! -->
     <link href="inc/css/foundation.css" rel="stylesheet">
     <link href="inc/css/typography.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-    <link href="inc/css/eva.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Oswald|Lato" rel="stylesheet" type="text/css">    <link href="inc/css/eva.css" rel="stylesheet">
     <link href="inc/css/lightbox.css" rel="stylesheet">
-    <link href="inc/css/jplayer.blue.monday.css" rel="stylesheet">
+    <link href="inc/css/jplayer.css" rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <div id="navigatie">
             <div class="row">
-                <div class="small-12 large-4 columns" id="logo">
+                <div class="small-12 large-3 columns" id="logo">
                     <a href="index.html"><img alt="Logo" src="inc/img/logo-top.png"></a>
                 </div>
 
-                <div class="small-12 large-8 columns">
+                <div class="small-12 large-9 columns">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="overernest.html">Over Ernest</a></li>
@@ -61,19 +60,19 @@
                           <label for="naam">Naam:</label>
                           <input  class="input" type="text" id="naam" name="naam" value="' . (isset($_POST['naam']) ? htmlspecialchars($_POST['naam']) : '') . '" /><br />
                       </p>
-                      <p>    
+                      <p>
                           <label for="mail">E-mailadres:</label>
                           <input class="input" type="text" id="mail" name="mail" value="' . (isset($_POST['mail']) ? htmlspecialchars($_POST['mail']) : '') . '" /><br />
                       </p>
-                      <p>   
+                      <p>
                           <label for="onderwerp">Onderwerp:</label>
                           <input class="input" type="text" id="onderwerp" name="onderwerp" value="' . (isset($_POST['onderwerp']) ? htmlspecialchars($_POST['onderwerp']) : '') . '" /><br />
                       </p>
-                      <p>    
+                      <p>
                           <label for="bericht">Bericht:</label><br />
                           <textarea id="bericht" name="bericht" rows="8">' . (isset($_POST['bericht']) ? htmlspecialchars($_POST['bericht']) : '') . '</textarea><br />
                       </p>
-                      <p>   
+                      <p>
                           <input type="submit" class="knopje" name="submit" value=" Versturen " />
                       </p>
                       </form>';
@@ -216,10 +215,5 @@
     <script src="inc/js/jplayer/jquery.jplayer.min.js"></script>
     <script src="inc/js/jplayer/add-on/jplayer.playlist.min.js"></script>
     <script src="inc/js/toelie.js"></script>
-    <script>
-    $(document).ready(function() {
-      $('.th').magnificPopup({type:'image'});
-    });
-    </script>
 </body>
 </html>
