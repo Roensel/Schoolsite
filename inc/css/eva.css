@@ -415,6 +415,7 @@ textarea {
 	font: normal .8125em 'Oswald', sans-serif;
 	color: rgba(255, 255, 255, .7);
 	line-height: 1;
+	display: block;
 }
 
 .agenda-datum:hover {

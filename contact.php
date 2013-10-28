@@ -78,20 +78,6 @@
                       </form>';
                     ?>
                 </div>
-
-                <div class="artikel">
-                    <h2>Fotogallerij</h2>
-
-                    <div>
-                        <a href="inc/img/gallery/large1.jpg" class="th"><img src="inc/img/gallery/thumb1.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large2.jpg" class="th"><img src="inc/img/gallery/thumb2.jpg" alt=""></a>
-                        <a href="inc/img/gallery/large3.jpg" class="th"><img src="inc/img/gallery/thumb3.jpg" alt=""></a>
-                    </div>
-                    <div>
-                        <a href="#" class="leesmeer rechts">Meer foto&rsquo;s</a>
-
-                    </div>
-                </div>
             </div>
 
             <div class="small-12 large-4 columns">
