@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 ?>
 
@@ -50,6 +50,12 @@ session_start();
 
     <div class="row content">
         <div class="row">
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/ernest.vanaaken"><img src="inc/img/social-icons/header_fb.png"></a>
+                <a href="https://twitter.com/evamuziek"><img src="inc/img/social-icons/header_twit.png"></a>
+                <a href="http://www.youtube.com/user/ernestvanaaken"><img src="inc/img/social-icons/header_yt.png"></a>
+            </div>
+
             <div class="small-12 large-8 columns">
                 <div class="artikel">
                     <h2>Contact</h2>
@@ -58,9 +64,9 @@ session_start();
                     <p><span style="color: #bc181f;"><strong>E-mailadres:</strong></span> ernest@checkdezewebsite.nl</p>
                     <p><span style="color: #bc181f;"><strong>Telefoonnummer:</strong></span> 0900-BOEKERNESTNU</p>
                     <p><img src="inc/img/layout/divider.png"></p>
-                    <?php                    
+                    <?php
                     $mail_ontv = 'jeroen@laylo.nl';
-                    
+
                     if ($_SERVER['REQUEST_METHOD'] == 'POST')
                     {
                     	if (empty($_POST['naam']))
@@ -75,7 +81,7 @@ session_start();
                     		$antiflood = 1;
                     	}
                     }
-                    
+
                     if (($_SERVER['REQUEST_METHOD'] == 'POST' && (!empty($antiflood) || empty($_POST['naam']) || !empty($naam_fout) || empty($_POST['mail']) || !empty($email_fout) || empty($_POST['bericht']) || empty($_POST['onderwerp']))) || $_SERVER['REQUEST_METHOD'] == 'GET')
                     {
                     	if ($_SERVER['REQUEST_METHOD'] == 'POST')
@@ -89,7 +95,7 @@ session_start();
                     		else
                     			echo '<p>U bent uw naam, e-mailadres, onderwerp of bericht vergeten in te vullen.</p>';
                     	}
-                    	                    
+
                     echo '<form method="post" action="' . $_SERVER['REQUEST_URI'] . '" />
                       <p>
                           <label for="naam">Naam:</label>
@@ -111,10 +117,10 @@ session_start();
                           <input type="submit" class="knopje" name="submit" value=" Versturen " />
                       </p>
                       </form>';
-                      
+
                     }
                     else
-                    {      
+                    {
                       $datum = date('d/m/Y H:i:s');
                       $inhoud_mail = "===================================================\n";
                       $inhoud_mail .= "Ingevuld contact formulier " . $_SERVER['HTTP_HOST'] . "\n";
@@ -131,14 +137,14 @@ session_start();
                       $headers = str_replace('\n', '', $headers);
                       $headers = str_replace('\r', '', $headers);
                       $headers = str_replace("\"", "\\\"", str_replace("\\", "\\\\", $headers));
-                      
+
                       $_POST['onderwerp'] = str_replace('\n', '', $_POST['onderwerp']);
                       $_POST['onderwerp'] = str_replace('\r', '', $_POST['onderwerp']);
                       $_POST['onderwerp'] = str_replace("\"", "\\\"", str_replace("\\", "\\\\", $_POST['onderwerp']));
-                      
+
                       if (mail($mail_ontv, $_POST['onderwerp'], $inhoud_mail, $headers))
                       {
-                    	  $_SESSION['antiflood'] = time();	  
+                    	  $_SESSION['antiflood'] = time();
                     	  echo '<h2>Het contactformulier is verzonden</h2>
                     	  <p>Bedankt voor het invullen van het contactformulier. We zullen zo spoedig mogelijk contact met u opnemen.</p>';
                       }
@@ -148,7 +154,7 @@ session_start();
                     	  <p><b>Onze excuses.</b> Het contactformulier kon niet verzonden worden.</p>';
                       }
                     }
-                    
+
                     ?>
                 </div>
             </div>
