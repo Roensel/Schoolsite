@@ -34,13 +34,12 @@
 
                 <div class="small-12 large-8 columns">
                     <ul>
-                        <li class="actief"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="overernest.html">Over Ernest</a></li>
-                        <li><a href="#">Media</a></li>
-                        <li><a href="#">Agenda</a></li>
-                        <li><a href="#">Nieuws</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="nieuws.html">Nieuws</a></li>
+                        <li class="actief"><a href="contact.php">Contact</a></li>
                 </div>
             </div>
         </div>
