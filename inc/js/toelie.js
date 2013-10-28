@@ -17,28 +17,20 @@ $(function() {
         jPlayer: "#jplayer_sidebar",
         cssSelectorAncestor: "#jp_container_1"
     }, [{
-        title: "<small>01.</small> Cro Magnon Man",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
-    }, {
-        title: "<small>02.</small> Your Face",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
-    }, {
-        title: "<small>03.</small> Cyber Sonnet",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
-    }, {
-        title: "<small>04.</small> Tempered Song",
-        mp3: "http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
-    }, {
-        title: "<small>05.</small> Hidden",
-        mp3: "http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+         title: "<small>01.</small> Jitterbug Swing",
+         mp3: "http://site.ernestvanaaken.nl/stream/1.mp3",
+     }, {
+         title: "<small>02.</small> If You Want Me To Love You",
+         mp3: "http://site.ernestvanaaken.nl/stream/2.mp3",
+     }, {
+         title: "<small>03.</small> The Coo-Coo Bird",
+         mp3: "http://site.ernestvanaaken.nl/stream/3.mp3",
+     }, {
+         title: "<small>04.</small> Wish I Was In Heaven Sitting Down",
+         mp3: "http://site.ernestvanaaken.nl/stream/4.mp3",
     }], {
         swfPath: "js",
-        supplied: "oga, mp3",
+        supplied: "mp3",
         wmode: "window"
     });
 
@@ -46,25 +38,17 @@ $(function() {
         jPlayer: "#jplayer_pagina",
         cssSelectorAncestor: "#jp_container_groot"
     }, [{
-        title: "<small>01.</small> Cro Magnon Man",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
-    }, {
-        title: "<small>02.</small> Your Face",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
-    }, {
-        title: "<small>03.</small> Cyber Sonnet",
-        mp3: "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
-    }, {
-        title: "<small>04.</small> Tempered Song",
-        mp3: "http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
-    }, {
-        title: "<small>05.</small> Hidden",
-        mp3: "http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
-        oga: "http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+	    title: "<small>01.</small> Jitterbug Swing",
+	    mp3: "http://site.ernestvanaaken.nl/stream/1.mp3",
+	}, {
+	    title: "<small>02.</small> If You Want Me To Love You",
+	    mp3: "http://site.ernestvanaaken.nl/stream/2.mp3",
+	}, {
+	    title: "<small>03.</small> The Coo-Coo Bird",
+	    mp3: "http://site.ernestvanaaken.nl/stream/3.mp3",
+	}, {
+	    title: "<small>04.</small> Wish I Was In Heaven Sitting Down",
+	    mp3: "http://site.ernestvanaaken.nl/stream/4.mp3",
     }], {
         swfPath: "js",
         supplied: "oga, mp3",
