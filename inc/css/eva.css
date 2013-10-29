@@ -389,6 +389,7 @@ textarea {
 	line-height: 40px;
 	text-align: center;
 	margin-top: 0.81rem;
+	border: none;
 }
 
 .leesmeer:hover {
@@ -397,6 +398,12 @@ textarea {
 
 .leesmeer.rechts {
 	float: right;
+}
+
+.leesmeer.form-input {
+	border: none;
+	margin-top: 3.5em;
+	cursor: pointer;
 }
 
 /* 5. De agenda */

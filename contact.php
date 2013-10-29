@@ -114,7 +114,7 @@ session_start();
                           <textarea id="bericht" name="bericht" rows="8">' . (isset($_POST['bericht']) ? htmlspecialchars($_POST['bericht']) : '') . '</textarea><br />
                       </p>
                       <p>
-                          <input type="submit" class="knopje" name="submit" value=" Versturen " />
+                          <input type="submit" class="leesmeer form-input" name="submit" value="Versturen" />
                       </p>
                       </form>';
 
